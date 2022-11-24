@@ -25,7 +25,6 @@
         android:layout_height="0dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:gravity="center_vertical"
         android:maxLines="10"
         android:text="Aprovado"
         android:textColor="@android:color/holo_green_dark"
@@ -33,6 +32,7 @@
         app:autoSizeMaxTextSize="24sp"
         app:autoSizeMinTextSize="12sp"
         app:autoSizeTextType="uniform"
+        android:gravity="center_vertical"
         app:layout_constraintBottom_toBottomOf="@+id/textView10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -53,15 +53,20 @@
 
     <TextView
         android:id="@+id/studentNameView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="96dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical"
         android:text="João Buss"
-        android:textSize="24sp"
         android:textStyle="bold"
+        app:autoSizeMaxTextSize="24sp"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toBottomOf="@+id/studentNameEdit"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/studentNameEdit"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/studentNameEdit"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
